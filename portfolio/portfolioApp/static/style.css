@@ -1,0 +1,122 @@
+body{
+    
+    background: rgb(10,3,138);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgb(12, 0, 238) 59%);
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.header{
+height: 350px;
+}
+.box2{
+    height: 200px;
+}
+.img{
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: black;    
+}
+.a{
+    background-color: #ccc;
+    vertical-align: middle;
+}
+.p{
+    letter-spacing: 1px;
+    background-color: rgba(33,37,41,0.7);
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+.b{
+    background-color: #cccffc;
+}
+.title{
+    font-size: 31px;
+    margin-top: 100px;
+    color: white;
+}
+
+
+.tools{
+    border: 1px solid black;
+    
+}
+.tooltitle{
+    color: white;
+}
+
+.tool{
+    padding: 20px !important;
+    background-color: rgba(33,37,41,0.7);
+    
+}
+.imgTool{
+    width: 100px;
+    height: 100px;
+    transition: 0.4s;
+    
+}
+.imgTool:hover{
+    opacity: 100%;
+    transform: scale(130%);
+}
+.footer{
+    margin-top: 4%;
+}
+.footerTitle{
+    color: white;
+}
+.icons{
+    height: 100%;
+    width: 100%;
+}
+.icons a i {
+    color: white;
+    margin: 0 30px;
+    font-size: 50px;
+    transition: 0.4s;
+    
+}
+
+
+.icons a i:hover {
+    transform: scale(130%);
+    
+    margin: 0 30px;
+    font-size: 50px;
+}
+
+@media (max-width: 1200px) {
+.section2{
+    margin-top: 120px;
+}
+}
+
+
+
+@media (max-width: 885px) {
+    .section2{
+        margin-top: 150px;
+    }
+    }
+
+
+
+@media (max-width: 723px) {
+    .section2{
+        margin-top: 180px;
+    }
+    }
+
+    @media (max-width: 527px) {
+        .section2{
+            margin-top: 400px;
+        }
+        }

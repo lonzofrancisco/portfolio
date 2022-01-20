@@ -1,0 +1,46 @@
+{% extends 'portfolio/base.html' %}
+{% block content %}
+{% load static %}
+<!---->
+<body >
+  <div class="container-fluid header">
+    <div class="row">
+      <div class="col-xl-6 text-center ">
+        <div class="box2">
+          <img class="my-5 img" src="{% static 'me.jpeg' %}" alt="My image">
+        </div>
+      </div>
+
+      <div class="col-xl-6 col-xs-12 text-center">
+        <h1 class="display-5 title uppercase">Desarrollador web</h1>
+        <div class="box">
+          <p class="p"> Soy Francisco Lonzo, Tecnico en informatica, actualmente estoy estudiando Analista en sistemas
+            y en mis tiempos libres realizo proyectos web.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="container-fluid  section2 ">
+      <div class="col-xl-12 text-center">
+        <h3 class="tooltitle uppercase">Algunas de las tecnologias</h3>
+        <div class="row tools">
+          <div class="col-xl-3 col-md-4 col-sm-6 tool"><img class="imgTool" src="{% static 'img/python.png' %}" alt=""></div>
+          <div class="col-xl-3 col-md-4 col-sm-6 tool"><img class="imgTool" src="{% static 'img/django.png' %}" alt=""></div>
+          <div class="col-xl-3 col-md-4 col-sm-6 tool"><img class="imgTool" src="{% static 'img/React.png' %}" alt=""></div>
+          <div class="col-xl-3 col-md-4 col-sm-6 tool"><img class="imgTool" src="{% static 'img/Bootstrap.png' %}" alt=""></div>
+          <div class="col-xl-3 col-md-4 col-sm-6 tool"><img class="imgTool" src="{% static 'img/linux.png' %}" alt=""> </div>
+          <div class="col-xl-3 col-md-4 col-sm-6 tool"><img class="imgTool" src="{% static 'img/HTML5.png' %}" alt=""></div>
+          <div class="col-xl-3 col-md-6 col-sm-6 tool"><img class="imgTool" src="{% static 'img/js.png' %}" alt=""></div>
+          <div class="col-xl-3 col-md-6 col-sm-6 tool"><img class="imgTool" src="{% static 'img/css.png' %}" alt=""></div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+</body>
+
+{% endblock %}
