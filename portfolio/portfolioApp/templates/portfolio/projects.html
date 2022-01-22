@@ -1,74 +1,25 @@
 {% extends 'portfolio/base.html' %}
 
 {% block title %}Francisco Lonzo{% endblock %}
-
+{% load static %}
 {% block content%}
 
-<div class="container">
-    <h1 class="display-5 text-center">Proyectos realizados</h1>
+<div class="container-fluid">
+  <h1 class="display-5 text-center whiteFont uppercase titleProjects">Proyectos realizados</h1>
 
-    <div class="row">
-      <div class="col my-2">
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-      </div>
-      <div class="col my-2">
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-      </div>
-      <div class="col my-2">
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-      </div>
-      <div class="col my-2">
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-      </div>
-      <div class="col my-2">
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-      </div>
-      <div class="col my-2">
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
+  <div class="row  justify-content-center text-center">
+
+    <div class="my-2">
+      <div class=" transparent whiteFont card" style="width: 18rem;">
+        <img src="{% static 'img/projects/pokemon.png' %}" class="card-img-top grow " alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pokemons App</h5>
+          <p class="card-text">Aplicacion construida con ReactJS que consume la API de pokemon y entrega la imagen del pokemon buscado</p>
+          <a href="https://github.com/lonzofrancisco/Pokemons" target="_blank"> <i class=" btn btn-primary  fab fa-github github"> Ver en Github</i></a>
+        </div>
       </div>
     </div>
   </div>
+</div>
 
 {% endblock %}

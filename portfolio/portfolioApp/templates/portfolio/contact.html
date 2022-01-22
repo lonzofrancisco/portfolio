@@ -1,1 +1,33 @@
 {% extends 'portfolio/base.html' %}
+
+{% block content %}
+
+<div class="container whiteFont">
+    <h1 class="text-center titleProjects">¡Contactame!</h1>
+    <form class="row g-3 my-2">
+      <div class="col-md-6 my-2">
+        <label for="Nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="Nombre" required>
+      </div>
+      <div class="col-md-6 my-2">
+        <label for="Apellido" class="form-label">Apellido</label>
+        <input type="text" class="form-control" id="lastName" required>
+      </div>
+      <div class="col-md-8 my-2">
+        <label for="emailInfo" class="form-label">E-mail</label>
+        <input type="email" class="form-control" id="emailInfo" required>
+      </div>
+      <div class="col-md-4 my-2">
+        <label for="Telefono" class="form-label">Telefono</label>
+        <input type="text" class="form-control" id="phoneNumber" placeholder="+54 2352 531879">
+      </div>
+      <div class="col-md-12 my-2">
+        <label for="msj" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="msj" rows="3" required></textarea>
+      </div>
+      <div class="col-md-12 my-5">
+        <button type="submit" class="btn btn-light button">Enviar</button>
+      </div>
+    </form>
+</div>
+{% endblock %}

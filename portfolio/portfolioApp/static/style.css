@@ -1,3 +1,6 @@
+.whiteFont{
+    color: #fff;
+}
 body{
     
     background: rgb(10,3,138);
@@ -30,7 +33,7 @@ height: 350px;
     font-size: 20px;
     margin-left: 20%;
     margin-right: 20%;
-    border: 5px solid black;
+    border: 1px solid black;
     border-radius: 5px;
 }
 
@@ -51,7 +54,13 @@ height: 350px;
 .tooltitle{
     color: white;
 }
-
+.transparent{
+    background-color: rgba(33,37,41,0.7) !important;
+    
+}
+.transparent::after{
+    opacity: 80%;
+}
 .tool{
     padding: 20px !important;
     background-color: rgba(33,37,41,0.7);
@@ -85,7 +94,9 @@ height: 350px;
     
 }
 
-
+.button{
+    background-color: #ccc;
+}
 .icons a i:hover {
     transform: scale(130%);
     
@@ -99,7 +110,12 @@ height: 350px;
 }
 }
 
+.titleProjects{
+    margin-top: 50px;
+}
 
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(2); }
 
 @media (max-width: 885px) {
     .section2{
