@@ -2,8 +2,7 @@ from django.shortcuts import render, HttpResponse
 from django.core.mail import send_mail
 from portfolio import settings
 # Create your views here.
-
-
+    
 
 def home(request):
     return render(request, 'portfolio/home.html')
